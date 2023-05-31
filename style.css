@@ -457,7 +457,7 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: rgba(255, 207, 155, 0.1);
-  min-height: 7vh;
+  min-height: 70vh;
 }
 
 .signup-form {
@@ -518,7 +518,7 @@ button {
 
 .login {
   background: rgba(255, 207, 155, 0.1);
-  min-height: 7vh;
+  min-height: 70vh;
   display: none;
 }
 
@@ -778,5 +778,79 @@ button {
   }
   .small-container {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 920px) and (min-width: 421px) {
+  .navbar-logo-container {
+    width: 30%;
+  }
+  .navbar-menu-container {
+    width: 60%;
+  }
+  .container-one {
+    grid-template-columns: 1fr;
+  }
+  .container-four-content {
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-five-part-one {
+    grid-template-columns: 1fr;
+    padding-bottom: 20px;
+  }
+
+  .container-five-part-two {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tile-light {
+    display: none;
+  }
+
+  .footer-info {
+    flex-direction: column;
+  }
+  .footer-info-part-one {
+    width: 100%;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  .footer-info-part-two {
+    width: 100%;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  .footer-info-part-two-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .footer-info-part-two-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .footer-info-part-three {
+    width: 100%;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  .footer-copyright {
+    width: 100%;
+    height: 150px;
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0%;
+    background: #ffffff;
+    margin-top: 300px;
+    padding-top: 10px;
   }
 }
